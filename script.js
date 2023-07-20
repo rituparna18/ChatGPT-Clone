@@ -6,7 +6,7 @@ const deleteButton = document.querySelector("#delete-btn");
 
 let userText = null;
 // const API_KEY = "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"; 
-console.log(env);
+// console.log(env);
 const loadDataFromLocalstorage = () => {
    
     const themeColor = localStorage.getItem("themeColor");
@@ -40,7 +40,7 @@ const getChatResponse = async (incomingChatDiv) => {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            'Authorization': `Bearer ${env.API_KEY}`
+            'Authorization': `Bearer ${API_KEY}`
         },
         body: JSON.stringify({
             model: "text-davinci-003",
