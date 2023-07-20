@@ -81,7 +81,7 @@ const showTypingAnimation = () => {
 
     const html = `<div class="chat-content">
                     <div class="chat-details">
-                        <img src="images/chatbot.jpg" alt="chatbot-img">
+                        <img src="chatbot.jpg" alt="chatbot-img">
                         <div class="typing-animation">
                             <div class="typing-dot" style="--delay: 0.2s"></div>
                             <div class="typing-dot" style="--delay: 0.3s"></div>
@@ -107,7 +107,7 @@ const handleOutgoingChat = () => {
 
     const html = `<div class="chat-content">
                     <div class="chat-details">
-                        <img src="images/user.jpg" alt="user-img">
+                        <img src="user.jpg" alt="user-img">
                         <p>${userText}</p>
                     </div>
                 </div>`;
