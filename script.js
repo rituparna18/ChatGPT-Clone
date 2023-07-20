@@ -5,7 +5,7 @@ const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 
 let userText = null;
-const API_KEY = "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"; 
+const API_KEY = "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"; 
 
 const loadDataFromLocalstorage = () => {
    
